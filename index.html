@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navcon">
+            <nav>
+                <ul>
+                    <li><a href="#clock">Clock</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#images">Images</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+       
+        <div class="middle">
+        <div id="clock" class="clock navi">
+
+            <div class="needle hr" style="--h:60px;--clr:red"><span></span></div>
+            <div class="needle mn" style="--h:80px; --clr:blue"><span></span></div>
+            <div class="needle ss" style="--h:100px;--clr:white"><span></span></div>
+            <ul>
+                <li style="--i:1"><span>1</span></li>
+                <li style="--i:2"><span>2</span></li>
+                <li style="--i:3"><span>3</span></li>
+                <li style="--i:4"><span>4</span></li>
+                <li style="--i:5"><span>5</span></li>
+                <li style="--i:6"><span>6</span></li>
+                <li style="--i:7"><span>7</span></li>
+                <li style="--i:8"><span>8</span></li>
+                <li style="--i:9"><span>9</span></li>
+                <li style="--i:10"><span>10</span></li>
+                <li style="--i:11"><span>11</span></li>
+                <li style="--i:12"><span>12</span></li>
+            </ul>
+        </div>
+        <div class="date">
+            <h1 id="curr-time">12:00:00</h1>
+            <div class="quotes">
+                <p>TODAYS'S QUOTES</p>
+                <div class="underline"></div>
+                <h2>Lost time is never found again</h2>
+            </div>
+        </div>
+
+        <div id="Services" class="navi">
+            <h3 class="about">About Service</h3>
+            <div class="pic">
+                <img src="img.webp" alt="">
+            </div>
+            <div class="repair">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a sunt quia eius sit pariatur consequuntur necessitatibus nisi, ut repudiandae, beatae saepe in fuga rem nostrum laudantium neque accusantium eos cum. Perferendis vero, sint illum ex architecto ad maxime! Eius aut dolorem incidunt suscipit consequatur ex nam nihil porro unde neque quae nostrum quam sapiente saepe accusantium tempore tempora nulla autem, excepturi pariatur. Cupiditate, alias?</p>
+            </div>
+        </div>
+        <div id="images" class="navi">
+            <!-- <h3 class="imag">Good Pics</h3> -->
+            <div class="pics one">
+                <img src="img.webp" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, alias fuga nobis laudantium sapiente aspernatur blanditiis rerum explicabo dolores quidem?</p>
+            </div>
+            <div class="pics two">
+                <img src="img.webp" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ipsam. Voluptatibus cupiditate corporis explicabo, enim repellendus est aliquid repudiandae expedita!</p>
+            </div>
+            <div class="pics three">
+                <img src="img.webp" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dignissimos, ipsa beatae sequi laudantium fugiat vero alias itaque adipisci inventore.</p>
+            </div>
+            
+        </div>
+        <div id="Contact" class="navi">
+            <div>
+                <h3>Contact Me</h3>
+                <p>Email: shubhamsahoo831@gmail.com</p>
+                <p>Phone: 9668434840</p>
+            </div>
+    
+            <!-- Feedback Form -->
+            <div class="feedback-form">
+                <h3>Leave Feedback</h3>
+                <form action="/submit-feedback" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+
+<footer class="contact">
+    <div class="copyright">
+        <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+    </div>
+</footer>
+</html>
